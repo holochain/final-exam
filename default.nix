@@ -28,10 +28,6 @@ with holonix.pkgs;
    ++ holonix.shell.buildInputs
    ++ config.buildInputs
 
-   ++ (holonix.pkgs.callPackage ./.circleci {
-    pkgs = holonix.pkgs;
-   }).buildInputs
-
   ;
  });
 }
